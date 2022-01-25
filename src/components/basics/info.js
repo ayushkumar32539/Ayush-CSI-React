@@ -46,7 +46,7 @@ const Info = (tempinfo) => {
         <>
            <div className="body">
                 <div className="icon">
-                    <i className={`fas ${weatherState}`}></i>
+                    <i className={`wi ${weatherState}`}></i>
                 </div>
 
                 <div className="weatherinfo">
