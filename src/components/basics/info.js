@@ -28,10 +28,10 @@ const Info = (tempinfo) => {
              setWeatherState("wi-fog");
              break;
              
+             // eslint-disable-next-line no-duplicate-case
              case"Clouds": 
              setWeatherState("wi-day-cloudy");
              break;
-
              default:
                  setWeatherState("wi-day-sunny")
                  break;

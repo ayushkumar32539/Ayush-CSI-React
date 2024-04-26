@@ -40,6 +40,7 @@ const Weather = () => {
 
     useEffect(() => {
         getWeatherInfo();
+        // eslint-disable-next-line
     }, []);
     return (
         <>
